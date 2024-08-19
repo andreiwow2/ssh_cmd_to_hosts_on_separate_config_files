@@ -6,11 +6,10 @@ Save the script in a file somewhere and make it accessible:
 
 
 
-Add the script file to your `.bash_profile` or `.zshrc` according to your shell.
-Example, replace accordingly
-`echo "source /path/to/file/xssh.sh" >> ~/.zshrc`
-
-`source ~/.zshrc`
+To execute the command you will have to add an alias to your profile, for example on .zshrc:
+```
+alias xssh=/Path/to/the/file/.ssh/categorized_configs/xssh.sh
+```
 
 
 
