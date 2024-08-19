@@ -18,3 +18,8 @@ Execute
 
 
 If no command is specified, it will open a SSH session.
+
+
+
+The script is coded to look for the config files in the same directory as the .sh itself.
+And it checks for the file name with `.config` appended to it, you can remote that from the `local config_file="$script_dir/$category.config"` making it `local config_file="$script_dir/$category"` if you don't want to use a suffix to your file names.
